@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h1 class="text-center">Registration Form</h1>
+                <form action="/submit_registration" method="post">
+                    <div class="form-group">
+                        <label for="last-name">Last Name:</label>
+                        <input type="text" id="last-name" name="last-name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="first-name">First Name:</label>
+                        <input type="text" id="first-name" name="first-name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="middle-name">Middle Name:</label>
+                        <input type="text" id="middle-name" name="middle-name" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-number">Contact Number:</label>
+                        <input type="tel" id="contact-number" name="contact-number" class="form-control" required>
+                    </div>
+                    <button type="submit" class="btn btn-success btn-block">Register/Continue</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
