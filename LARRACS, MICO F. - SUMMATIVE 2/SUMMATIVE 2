@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mico Larracas - Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    .left-column {
+      width: 30%;
+      padding-right: 20px;
+    }
+
+    .right-column {
+      width: 65%;
+    }
+
+    .profile-image {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .profile-info {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .section-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .skills-summary {
+      margin-bottom: 20px;
+    }
+
+    .skills-item {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 5px;
+    }
+
+    .skills-name {
+      font-weight: bold;
+    }
+
+    .skills-bar {
+      width: 80%;
+      height: 10px;
+      background-color: #ddd;
+      border-radius: 5px;
+    }
+
+    .skills-progress {
+      height: 10px;
+      background-color: #4CAF50;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left-column">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/User_icon_2.svg/256px-User_icon_2.svg.png" alt="Profile Picture" class="profile-image">
+      <div class="section-title">About Me</div>
+      <p>I'm a highly motivated and results-oriented individual with a passion for Information Technology. I am skilled in programming, designing, and have a strong understanding of user experience principles. I am eager to learn new technologies and apply my skills to solve real-world problems.</p>
+      <div class="section-title">Expertise</div>
+      <ul>
+        <li>Creativity</li>
+        <li>Self-Reliance</li>
+        <li>Innovative Thinking</li>
+        <li>Communication</li>
+        <li>Programming</li>
+        <li>Adaptability</li>
+      </ul>
+    </div>
+
+    <div class="right-column">
+      <div class="profile-info">Mico Larracas</div>
+      <div class="profile-info">Far Eastern University Institute of Technology</div>
+      <div class="profile-info">0202311420@fit.edu.ph</div>
+      <div class="profile-info">+63 956 148 0849</div>
+      <div class="profile-info">Cainta, Rizal, Philippines</div>
+
+      <div class="section-title">Career Objective</div>
+      <p>To secure a challenging role in a dynamic IT environment where I can leverage my skills and contribute to the success of the organization. I am eager to learn and grow, and I am confident that I can make a significant impact.</p>
+
+      <div class="section-title">Education</div>
+      <ul>
+        <li>Far Eastern University Institute of Technology, Information Technology with Specialization in Business Analytics (2024 - Current)</li>
+        <li>Marist School of Marikina (2013-2023)</li>
+      </ul>
+
+      <div class="section-title">Awards</div>
+      <ul>
+        <li>Awardee of Highest Honors in Academics (2015)</li>
+        <li>Former Private School Table Tennis Champion</li>
+      </ul>
+
+      <div class="section-title">Trainings and Seminars</div>
+      <ul>
+        <li>Leadership Training (2015): Became one of the officers in class and got invited in leadership training with the whole schoolmates</li>
+        <li>InnovateSpark Challenges by FTIC: Design Thinking (2024): FEU Tech's seminar about innovation</li>
+        <li>InnovateSpark Challenges by FTIC: User Interface & User Experience (2024): FEU Tech's seminar about making an efficient and effective user design interface</li>
+      </ul>
+
+      <div class="section-title">Skills Summary</div>
+      <div class="skills-summary">
+        <div class="skills-item">
+          <div class="skills-name">Programming</div>
+          <div class="skills-bar">
+            <div class="skills-progress" style="width: 78%;"></div>
+          </div>
+        </div>
+        <div class="skills-item">
+          <div class="skills-name">Designing</div>
+          <div class="skills-bar">
+            <div class="skills-progress" style="width: 81%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
